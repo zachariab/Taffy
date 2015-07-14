@@ -4,7 +4,7 @@
 		this.beans = structNew();
 		this.transients = structNew();
 		//functionality
-		function init(externalBeanFactory){
+		function init(){
 			if (structKeyExists(arguments, "externalBeanFactory")) {
 				this.externalBeanFactory = arguments.externalBeanFactory;
 			}
